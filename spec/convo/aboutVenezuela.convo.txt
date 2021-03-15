@@ -1,0 +1,10 @@
+About Venezuela Intent
+
+#me
+Hola bot quiero saber sobre Venezuela
+
+#bot
+¿Qué quieres saber de Venezuela?.
+
+#bot
+📌Por favor seleccione una opción. 

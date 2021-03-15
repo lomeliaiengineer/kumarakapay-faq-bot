@@ -1,0 +1,11 @@
+{
+  "botium": {
+    "Capabilities": {
+      "PROJECTNAME": "FAQbot-ES",
+      "CONTAINERMODE": "dialogflow",
+      "DIALOGFLOW_PROJECT_ID": "faqbot-es-ulbr",
+      "DIALOGFLOW_CLIENT_EMAIL": "botium-testing@faqbot-es-ulbr.iam.gserviceaccount.com",
+      "DIALOGFLOW_PRIVATE_KEY": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCRVKKvi4NFncQb\nVijIIWdeb/gL4P0k6IvTkMCq9DHMWUlxZwZJHVmnspR7LiipPsLqFopmlo7+Ioye\nkO6UkMj59kW3UE/RbI4EcLIN8ZZ1eTowreUvnSPBfPZkSAgJ6Cw7zetcuyx7CdYV\nK5UsO5l47xRdr5CJqrgdjpphdy+KAP3ALVbc89gFFvZ2sG+r39F43eZm24y3Q55e\nlCsod17tClPGkuiLUaPYKlHdyA+KZd2P2THxZjdx7oDrV+W8lqlslkosj7yuB25H\ndwdzqso9yF4iqLnp1pE3cMM7nK4+gOMesK5u36ggqH4rXSKmO/80IZdpf5YTA3Sj\nqgzHK0ZXAgMBAAECggEALvsPRHRzUVP5C2VE9b1mry6/HwfyjbXnTdNjlWAvoQHU\nLibB72zfiMjAGzoGxv+U/xueTh+pxhnhH3l2xuwvLC8ixmneA7N2DZVo2f0ZSIyR\n9R6iEkxYPLpq5GwsvRcjBYpB5c5USMobPOjD5nK14FRZXxfcP8TClDt/SLbA1XmT\n2Hx7ePBEXQC/IXtMWz28E6TZNyC8Se4t7Bs58RpJIzI7gni9PTLialulrEI6cHUH\nX9nfyMPu2TUxo64ALRZaI9viGztNJvEI3nHRJf7jigi4csxRlFucEX1shV+JqTEJ\npBwH69T9JAUmAIJfS5I4Y2Piz0oPCl7Fwc2meb1vgQKBgQDBub4oLwcbHq2Su80N\n9muDwtGAAvhqVbl1OPEn/R3TiY9IbhDt8xqwVYs+u6K06hWQwsRT9WSol2iKaEHr\nybZcPSTQEf9hLbxVnz0R6uh669OAj6OWoORGx8l+V9NmA8DSfIYR9RH0j28c1Loy\nFy0H16uMCZ7yuOhqT73Q/At09wKBgQDADFO6r20e9DjDnx2BSdaGrhYay+DF4uAT\nauKefG1PY3Cers4C7tPMj/X0UlwuJp2WebDL4CtStmrckgZ8s+QOhJtuXo1z6CLi\nh5GRrchCsaFQkPTkottseVm3phZi4HRKqyLm0JmcKVnuypvio62+SJ3kq0q6EE1a\nszIlIdxBoQKBgCCA/brYSSTvvMfF4t3Y3qk44tXLqcqNn5RffXbsLTj096l7bjO+\nelfjwn1AFkisjfm/9BjyL3VqEgxG+eiJ66MGT0rp+iNf/R2QnjqHY4JcVxxW/Wek\njyihFNmx+rI/JvcqFYSlzeFuv4Hi32rQIKoUMaBJbPXkuHo97udFotZ5AoGBAIq0\nHID3lGNH1fuLXv7yukr5TqO53jRt4JKFnvkCOtycoEkrTUUXAsd6rhPwq/z1DNoS\nN9t3ozKQ52s42BCWyD6oDa5QAe/Vl+RuL3e8wKdSrYSHvSeoa7vThTW7ce2l2LfZ\nFFMKE/eScg6iLKYquyB0R/1QrZ7miUfZpnzlELQhAoGAbMdpsBbCpELgQxNGBwtQ\nn991cg/bFf/kNd2Hglc98iwqZxNCTJbXWv+Epcc5yovA8WHhde+Hpdy/Dnq2+ejb\n76ss2XvlvjFM8Yy/vYb47eRkBDo/0gPwmc/v8LCMPg+S4hFmhtN9b+mzMlbVHi1p\ndJA5FSPKS0ObUbUr/g5HZxA=\n-----END PRIVATE KEY-----\n"
+    }
+  }
+}

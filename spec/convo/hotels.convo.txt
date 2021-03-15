@@ -1,0 +1,10 @@
+Hotels Intent
+
+#me
+Hoteles
+
+#bot
+🛎️Estas son las listas de hoteles que recomiendo:
+
+#bot
+En qué más puedo ayudarte?

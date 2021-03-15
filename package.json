@@ -1,0 +1,37 @@
+{
+  "name": "faqbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "mocha": "mocha spec"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "botium": {
+    "convodirs": [
+      "spec\\convo"
+    ],
+    "expandConvos": true,
+    "expandUtterancesToConvos": false,
+    "expandScriptingMemoryToConvos": false
+  },
+  "devDependencies": {
+    "botium-bindings": "latest",
+    "botium-connector-echo": "latest",
+    "chai": "^4.3.0",
+    "mocha": "latest"
+  },
+  "dependencies": {
+    "@google-cloud/dialogflow": "^3.3.0",
+    "actions-on-google": "^2.13.0",
+    "botium-connector-dialogflow": "0.0.25",
+    "detectlanguage": "^2.0.0",
+    "dialogflow-fulfillment": "^0.6.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "ngrok": "^3.4.0"
+  }
+}

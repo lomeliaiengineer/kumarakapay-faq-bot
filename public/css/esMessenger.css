@@ -1,0 +1,132 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: Montserrat, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu{ 
+    list-style: none;
+    display: flex;
+}
+
+.menu li{
+    flex-direction: column;
+    margin-right: 16px;
+    font-weight: 600;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: white;
+} 
+
+.menu li a:hover{
+    background: #4c542a;
+    color: white;
+    border-radius: 18px;
+    padding: 5px 8px;
+} 
+
+.home{
+    display: flex;
+    height: 87vh;
+}
+
+.home-text{
+    align-self: flex-start;
+    width: 500px;
+    margin-left: 60px;
+    margin-top: 100px;
+}
+
+.home-title{
+    font-size: 46px;
+    font-weight: 700;
+}
+
+.home-veFlag{
+    height: 1em;
+    width: 1em;
+    margin: 0 .05em 0 .1em;
+    vertical-align: -0.2em; 
+}
+
+.home-subtitle{
+    font-size: 20px;
+    color: grey;
+    font-weight: 300;
+    margin-top: -36px;
+}
+
+.home-moreInfo-btn{
+    border: none;
+    background: #4c542a;
+    color: white;
+    font-weight: 600;
+    border-radius: 18px;
+    padding: 12px;
+    font-size: 14px;
+    outline: none;
+    font-family: Montserrat, sans-serif;
+}
+
+.home-bot-img{
+    align-self: flex-end;
+}
+
+.about{
+    height: 100vh;
+    background-color: #4c542a;
+}
+
+.about-title{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.about-content{
+    display: flex;
+}
+
+.about-content-left{
+    align-self: flex-start;
+    padding: 40px;
+}
+
+.about-content-right{
+    align-self: flex-end;
+    padding-top: 18px;
+}
+
+.contact{
+    height: 30vh;
+}
+
+.contact-title{
+    align-self: flex-start;
+}
+
+.contact-txt{
+    align-self: flex-end;
+}
+
+df-messenger {
+    --df-messenger-button-titlebar-color:  #4c542a;
+    --df-messenger-chat-background-color: #fafafa;
+    --df-messenger-send-icon: #4c542a;
+    --df-messenger-user-message: #4c542a;
+    position: fixed;
+}
+.icon{
+    width: 100px;
+    position: fixed;
+    bottom: 9px;
+    right: 1px;
+}

@@ -1,0 +1,12 @@
+Travel to Venezuela Intent
+
+#me
+Viajar a Venezuela
+
+#bot
+¿Qué quieres saber sobre viajar a Venezuela ?.
+
+#bot
+📌Por favor seleccione una opción.
+
+

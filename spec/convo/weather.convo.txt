@@ -1,0 +1,19 @@
+Weather Intent
+
+#me
+Clima
+
+#bot
+En Venezuela, el clima es caluroso todo el año♨️, al menos en altitudes bajas, por lo que las principales diferencias se encuentran en el patrón de lluvias estacionales: hay una estación seca☀️ (que generalmente va desde mediados de diciembre hasta mediados de abril) y una temporada de lluvias🌧️ (generalmente, desde finales de abril hasta mediados de noviembre).
+
+#bot
+⛰️Sin embargo, la inmensidad del territorio y la presencia de sierras y mesetas complican la situación, por lo que el clima es más o menos lluvioso según la zona y más o menos cálido según la altitud.
+
+#bot
+Venezuela se encuentra justo al norte del Ecuador, por lo que las fluctuaciones de temperatura son limitadas, aunque la estación seca, en la que prevalecen los vientos alisios del noreste, suele ser la más fría, aunque ligeramente🌬️.
+
+#bot
+En qué más puedo ayudarte?
+
+
+

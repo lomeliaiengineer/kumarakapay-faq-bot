@@ -1,0 +1,15 @@
+Political Situation Intent
+
+#me
+Cómo esta la cosa en venezuela?
+
+#bot
+💡En este momento, las cosas están muy tranquilas en lo que respecta a las protestas, eso no significa que todos nuestros problemas se hayan ido, es solo que la gran mayoría se ha ido y los que todavía están aquí, hacemos nuestro mejor esfuerzo para reconstruir nuestro país trabajando y ser mejores civiles.
+
+#bot
+💡Hemos llegado a la conclusión de que los políticos no se preocupan por nosotros o nuestras necesidades, por lo que estamos luchando contra la corriente.
+
+#bot
+En qué más puedo ayudarte?
+
+

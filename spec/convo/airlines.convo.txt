@@ -1,0 +1,10 @@
+Airlines Intent
+
+#me
+Aerolíneas
+
+#bot
+En este momento, como sabemos, estamos pasando por momentos difíciles debido al covid que hace que viajar al extranjero sea muy complicado, pero sabemos que esto también va a pasar, así que les dejo las aerolíneas que solían viajar a Venezuela:
+
+#bot
+En qué más puedo ayudarte?

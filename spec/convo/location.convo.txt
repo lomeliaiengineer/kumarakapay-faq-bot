@@ -1,0 +1,19 @@
+Location Intent
+
+#me
+Dónde queda Venezuela?
+
+#bot
+Venezuela está ubicada en el extremo norte de América del Sur📍🗺️.
+
+#bot
+Ocupa un área aproximadamente triangular que es más grande que las áreas combinadas de Francia y Alemania〰️.
+
+#bot
+Venezuela limita con el Mar Caribe y el Océano Atlántico al norte, Guyana al este, Brasil al sur y Colombia al suroeste y oeste🌊.
+
+#bot
+En qué más puedo ayudarte?
+
+
+

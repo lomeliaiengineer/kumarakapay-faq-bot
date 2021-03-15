@@ -1,0 +1,25 @@
+Baggage Intent
+
+#me
+Qué debo llevar?
+
+#bot
+🧳Para la llanura, en general, empaca ropa ligera durante todo el año.
+
+#bot
+🧳Para el bosque, ropa holgada, amigable con los trópicos, camisas ligeras y pantalones de fibras naturales (algodón o lino) o sintéticos que respiran, tal vez con mangas largas para los mosquitos; un suéter ligero y un impermeable ligero para tormentas, que también se puede traer en la sabana durante la temporada de lluvias.
+
+#bot
+🧳Para las costas, aunque siempre hace calor, puedes traer una sudadera ligera para la brisa nocturna, especialmente de diciembre a febrero.
+
+#bot
+🧳Para Caracas, puedes agregar una sudadera para la noche, especialmente de diciembre a febrero, y una gabardina o paraguas de mayo a diciembre.
+
+#bot
+🧳Para Mérida, empacar ropa ligera, un suéter para la noche, una chaqueta para la noche especialmente de diciembre a marzo; un impermeable o paraguas durante todo el año, pero especialmente de abril a noviembre.
+
+#bot
+🧳Para la alta montaña, empaca ropa abrigada, como una chaqueta de plumas, un gorro, guantes, una bufanda, zapatos para caminar.
+
+#bot
+En qué más puedo ayudarte?

@@ -1,0 +1,21 @@
+Food Intent
+
+#me
+Comida Venezolana
+
+#bot
+Encontrarás diferentes tipos de comida y platos de una región a otra, pero hay algunos de estos que son comunes en cada región🍽️: Arepas, Cachapas, Pabellón Criollo, Tequeños, Empanadas.
+
+#bot
+Sin embargo, en nuestras actividades básicas diarias, comemos platos muy comunes como pasta🍝, arroz🍚, pescado🐟, carne🥩, frijoles🍲 y verduras como patatas🥔, zanahorias🥕, maíz🌽 y cebollas🧅.
+
+#bot
+Así que no tienes nada de qué preocuparte🤤.
+
+#bot
+En qué más puedo ayudarte?
+
+
+
+
+

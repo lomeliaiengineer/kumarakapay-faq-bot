@@ -1,0 +1,10 @@
+Exchange Money Intent
+
+#me
+Cómo cambio dinero?
+
+#bot
+💱Hay muchas casas de cambio donde puedes cambiar tu dinero.
+
+#bot
+En qué más puedo ayudarte?

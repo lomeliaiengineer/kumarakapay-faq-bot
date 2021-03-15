@@ -1,0 +1,14 @@
+Best Time to Travel Intent
+
+#me
+En qué mes del año debería visitar Venezuela?
+
+#bot
+Si quieres hacer un viaje por toda Venezuela🗺️, puedes elegir entre enero y febrero, incluyendo también el período navideño a finales de diciembre📅.
+
+#bot
+De manera más general, el período seco, o en cualquier caso el menos lluvioso☀🌦️ (mediados de diciembre a mediados de abril), es preferible a la temporada de lluvias (finales de abril a mediados de noviembre).
+
+#bot
+En qué más puedo ayudarte?
+

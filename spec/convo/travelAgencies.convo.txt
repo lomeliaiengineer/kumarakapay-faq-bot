@@ -1,0 +1,10 @@
+Travel Agencies Intent
+
+#me
+Agencias de viaje
+
+#bot
+Esta es la lista de agencias de viajes que recomiendo:
+
+#bot
+En qué más puedo ayudarte?

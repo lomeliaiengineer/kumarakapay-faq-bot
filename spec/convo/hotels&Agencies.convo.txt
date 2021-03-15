@@ -1,0 +1,12 @@
+Hotels & Travel Angencies Intent
+
+#me
+Hoteles y agencias de viajes
+
+#bot
+¿Qué quieres saber?.
+
+#bot
+📌Por favor seleccione una opción.
+
+

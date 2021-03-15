@@ -1,0 +1,7 @@
+Default Welcome Intent
+
+#me
+epale
+
+#bot
+Hola, soy Kumarakapay🙋‍♀️ y estoy para ayudarte con las preguntas más frecuentes: cultura, turismo y muchas más sobre mi país Venezuela.

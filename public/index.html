@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Kumarakapai</title>
+    <meta name="viewport" content="width-device-width, initial-scale=1">
+    <style class="cp-pen-styles">
+        @import url(./css/esMessenger.css);
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+    </style>
+</head>
+
+<body>
+    <img class="icon" src="./media/poker_face.png">
+    <nav class="nav-menu" id="home">
+        <ul class="menu">
+            <li><a href="#home">Inicio</a></li>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#contact">Contacto</a></li>
+        </ul>
+    </nav>
+    <div class="home">
+        <div class="home-text">
+            <p class="home-title">
+                Kumarakapai <img src="https://twemoji.maxcdn.com/2/svg/1f1fb-1f1ea.svg" class="home-veFlag" />
+            </p>
+            <p class="home-subtitle">Hola, soy un chatbot creado para ayudar a impulsar el
+                turismo en Venezuela, hazme una pregunta.
+            </p>
+            <button class="home-moreInfo-btn">Quiero saber más</button>
+        </div>
+        <img src="/media/thumb_up.png" class="home-bot-img">
+    </div>
+
+    <div class="about" id="about">
+        <h1 class="about-title">Sobre Kumarakapai</h1>
+        <div class="about-content">
+            <div class="about-content-left">
+                <p>Mi nombre es Kumarakapay, mi creadora María Lomeli me dio este nombre en honor
+                    a un hermoso campamento ubicado en la hacienda Bolívar, donde ella y su familia
+                    se hospedaron la primera vez que visitó La Gran Sabana🏕️.
+
+
+
+                </p>
+                <p>
+                    Nací por el deseo de mi creador de mostrarle a la gente de todo el
+                    mundo lo que Venezuela tiene para ofrecer, como nuestras impresionantes
+                    vistas y lugares paradisíacos🌊.
+                </p>
+                <p>
+                    🔮Así que comencemos, pregúntame algo que quieras saber sobre Venezuela.
+
+                </p>
+                <p>
+                    Lugar de nacimiento: Venezuela.<br />
+                    Hobbies: Viajar por Venezuela y el mundo.<br />
+                    Descripción: Amigable, inteligente y
+                    muy motivada.
+                </p>
+            </div>
+            <img src="/media/samrtphone1-removebg-preview2.png" class="about-content-right" />
+        </div>
+    </div>
+
+    <div class="contact" id="contact">
+        <h1 class="contact-title">Contacto</h1>
+        <p class="contact-txt">Email: lomeli.aiengineer@gmail.com</p>
+        <p class="contact-txt">Redes Sociales: lomeliAI</p>
+    </div>
+
+
+    <df-messenger 
+        intent="WELCOME" 
+        chat-title="FAQbot-ES" 
+        agent-id="1577d442-55b1-45a2-91c3-745517cfe687"
+        language-code="es">
+    </df-messenger>
+
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./js/df-styles.js"></script>
+</body>
+
+</html>
