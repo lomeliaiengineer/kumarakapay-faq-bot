@@ -25,6 +25,19 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - run: npm ci
-    - run: npm run build --if-present
-    - run: npm test
+      
+    - name: Clean install of your dependencies
+      run: npm ci
+
+    - name: Build if present
+      run: npm run build --if-present
+
+    - name: Run tests
+      run: npm test
+
+    - name: Deploy to heroku
+      uses: akhileshns/heroku-deploy@v3.12.12
+        with:
+          heroku_api_key: ${{secrets.HEROKU_API_KEY}}
+          heroku_app_name: "kumarakapay-faq-bot" 
+          heroku_email: "lomeli.aiengineer@gmail.com"
