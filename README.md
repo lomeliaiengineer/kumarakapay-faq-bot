@@ -1,6 +1,6 @@
-# Kumarakapai Chatbot
+# Kumarakapay Chatbot
 
-Kuma is a chatbot to improve Venezuelan tourism, go test it in this [link](https://pip.pypa.io/en/stable/).
+Kuma is a chatbot created to improve Venezuelan tourism test it at this  [link](https://kumarakapay-faq-bot.herokuapp.com/).
 
 ## Technology Stack
 
