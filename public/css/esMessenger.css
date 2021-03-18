@@ -40,7 +40,7 @@ body{
     align-self: flex-start;
     width: 500px;
     margin-left: 60px;
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
 .home-title{
@@ -87,7 +87,7 @@ body{
 .home-bot-img{
     position: absolute;
     right: 95px;
-    margin-top: 44px;
+    top: 94px;
 }
 
 .about{
@@ -120,7 +120,6 @@ body{
 }
 
 .contact{
-    height: 30vh;
     padding: 0px 40px;
     text-align: center;
 }
@@ -179,3 +178,110 @@ df-messenger {
     bottom: 9px;
     right: 1px;
 }
+
+@media(max-width: 1060){
+
+}
+@media(max-width: 1040px){
+    .home-text{
+        width: 450px;
+    }
+    .home-bot-img{
+        right: 82px;
+    }
+}
+
+@media(max-width: 960px){
+    .home-title{
+        font-size: 43px;
+    }
+    .home-subtitle{
+        font-size: 16px;
+    }
+    .home-text{
+        margin-top: 190px;
+    }
+    .home-text{
+        width: 375px;
+    }
+    .home-bot-img{
+        right: 78px;
+        top: 90px;
+    }
+    .about-title{
+        font-size: 25px;
+    }
+    .about{
+        height: fit-content;
+    }
+    .about-content{
+        flex-direction: column;
+        padding-bottom: 30px;
+        margin-top: 30px;
+    }
+    .about-content-line{
+        margin-bottom: 20px;
+    }
+    
+    .about-content-line-img{
+        width: 150px;
+    }
+}
+
+@media(max-width: 890px){
+    .home{
+        flex-flow: row-reverse;
+    }
+    .home-bot-img{
+        left: 0;
+    }
+    .home-text{
+        margin-right: 45px;
+    }
+}
+
+@media(max-width: 825px){
+    .home-text{
+        margin-right: 25px;
+    }
+}
+
+@media(max-width: 800px){
+    .home {
+        height: 60vh;
+        text-align: center;
+    }
+    
+    .home-bot-img{
+        display: none;
+    }
+    .home-moreInfo-btn{
+        margin: auto;
+    }
+    .home-text{
+        margin: auto;
+    }
+    .home-subtitle {
+        font-size: 18px;
+    }
+    .home-title {
+        font-size: 43px;
+    }
+    
+}
+
+@media(max-width: 490px){
+    .home-title {
+        font-size: 30px;
+    }
+    
+    .home-subtitle {
+        font-size: 16px;
+        margin-top: -20px;
+    }
+
+    .about-title{
+        font-size: 20px;
+    }
+}
+
