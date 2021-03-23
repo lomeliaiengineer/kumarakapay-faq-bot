@@ -1,4 +1,5 @@
 const { somethingElse } = require('../richResponses/somethingElseMsg');
+const { chatbaseMsg } = require('../../../chatbase/chatbase');
 
 const baggageMessage1 = '🧳For the plain, in general, pack light clothing all year round.';
 const baggageMessage2 = '🧳For the forest, tropics-friendly, loose-fitting clothing, light shirts and pants of natural fibers (cotton or linen) or synthetics that breathe, maybe with long sleeves for mosquitoes; a light sweater and a light raincoat for thunderstorms, which can be brought also in the savanna during the rainy season.';
@@ -15,6 +16,9 @@ const baggageMessageES5 = '🧳Para Mérida, empacar ropa ligera, un suéter par
 const baggageMessageES6 = '🧳Para la alta montaña, empaca ropa abrigada, como una chaqueta de plumas, un gorro, guantes, una bufanda, zapatos para caminar.';
 
 const baggage = (agent) => {
+
+    chatbaseMsg(agent);
+
     if (agent.locale == 'es') {
         agent.add(baggageMessageES1);
         agent.add(baggageMessageES2);

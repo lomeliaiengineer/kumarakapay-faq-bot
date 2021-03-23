@@ -27,6 +27,7 @@
   },
   "dependencies": {
     "@google-cloud/dialogflow": "^3.3.0",
+    "@google/chatbase": "^1.1.2",
     "actions-on-google": "^2.13.0",
     "botium-connector-dialogflow": "0.0.25",
     "detectlanguage": "^2.0.0",

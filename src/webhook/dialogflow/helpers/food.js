@@ -2,6 +2,7 @@ const { Card } = require('dialogflow-fulfillment');
 
 const { cardMsg } = require('../richResponses/cardMsg');
 const { somethingElse } = require('../richResponses/somethingElseMsg');
+const { chatbaseMsg } = require('../../../chatbase/chatbase');
 
 const foodMessage1 = 'You’ll find different types of food and dishes from region to region but there are a few of these that are common in each region🍽️: Arepas, Cachapas, Pabellon Criollo, Tequeños, Empanadas.';
 const foodMessage2 = 'However, on our daily basics, we eat very common plates like pasta🍝, rice🍚, fish🐟, meat🥩, beans🍲, and vegetables like potatoes🥔, carrots🥕, corn🌽, and onions🧅.';
@@ -50,6 +51,9 @@ const card = [
 ];
 
 const food = (agent) => {
+
+    chatbaseMsg(agent);
+
     if (agent.requestSource === 'TELEGRAM') {
         if (agent.locale == 'es') {
             agent.add(foodMessageES1);

@@ -1,6 +1,6 @@
 const { listMsg } = require('../richResponses/listMsg');
 const { suggestionsT } = require('../richResponses/telegramSuggestionsMsg');
-
+const { chatbaseMsg } = require('../../../chatbase/chatbase');
 
 const welcomeMessage = 'Hi, I am Kumarakapay🙋‍♀️ and I am here to help you with the frequently asked questions: culture, tourism, and many more about my country Venezuela.';
 const listItems = [
@@ -45,6 +45,7 @@ const suggestionsES = ['Sobre Venezuela', 'Viajar a Venezuela', 'Hoteles y agenc
 
 const welcome = async (agent) => {
     
+    chatbaseMsg(agent);
 
     if (agent.requestSource === 'TELEGRAM') {
         if (agent.locale == 'es') {

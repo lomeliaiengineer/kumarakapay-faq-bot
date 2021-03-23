@@ -1,5 +1,6 @@
 const { listMsg } = require('../richResponses/listMsg');
 const { suggestionsT } = require('../richResponses/telegramSuggestionsMsg');
+const { chatbaseMsg } = require('../../../chatbase/chatbase');
 
 const showMenuMessage = 'I can help you with the following categories';
 const listItems = [
@@ -42,6 +43,9 @@ const listItemsES = [
 const suggestionsES = ['Sobre Venezuela', 'Viajar a Venezuela', 'Hoteles y agencias de viajes']; 
 
 const showMenu = (agent) => {
+
+    chatbaseMsg(agent);
+    
     if (agent.requestSource === 'TELEGRAM') {
         if (agent.locale == 'es') {
             agent.add(showMenuMessageES);

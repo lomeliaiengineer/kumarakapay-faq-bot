@@ -1,5 +1,6 @@
 const { chipMsg } = require('../richResponses/chipMsg');
 const { suggestionsT } = require('../richResponses/telegramSuggestionsMsg');
+const { chatbaseMsg } = require('../../../chatbase/chatbase');
 
 const travelVEMessage1 = 'What you wanna know about Travelling to Venezuela?.';
 const travelVEMessage2 = '📌Please select an option.';
@@ -26,6 +27,9 @@ const menuOptionsES = [
 const suggestionsES = ['Equipaje', 'Mejor época para viajar', 'Cambio de dinero', 'Lugares para visitar', 'Seguridad', 'Líneas aereas'];
 
 const travelVE = (agent) => {
+
+    chatbaseMsg(agent);
+
     if (agent.requestSource === 'TELEGRAM') {
         if (agent.locale == 'es') {
             agent.add(travelVEMessageES1);

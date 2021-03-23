@@ -1,3 +1,4 @@
+const { chatbaseMsg } = require('../../../chatbase/chatbase');
 const { somethingElse } = require('../richResponses/somethingElseMsg');
 
 
@@ -11,7 +12,8 @@ const weatherMessageES3 = `Venezuela se encuentra justo al norte del Ecuador, po
 
 const weather = async (agent) => {
     
-
+    chatbaseMsg(agent);
+    
     if (agent.locale == 'es') {
         agent.add(weatherMessageES1);
         agent.add(weatherMessageES2);

@@ -1,4 +1,5 @@
 const { somethingElse } = require('../richResponses/somethingElseMsg');
+const { chatbaseMsg } = require('../../../chatbase/chatbase');
 
 const safetyMessage1 = '⚠️I can’t say it is perfect for backpackers or people that speak a foreign language traveling alone because people might try to trick them or steal their money by offering overpriced services taking advantage of the fact they’re not from here.';
 const safetyMessage2 = '🔦I always recommend traveling with someone local who knows the country inside out, understands the situation, and also knows how to use that knowledge to make a safe and exciting experience without feeling like a guided bus tour.';
@@ -9,6 +10,9 @@ const safetyMessageES2 = '🔦Siempre recomiendo viajar con alguien local que co
 const safetyMessageES3 = 'Hoy en día, existen muchas agencias en Venezuela que pueden ayudarte en todo lo que necesites.';
 
 const safety = (agent) => {
+
+    chatbaseMsg(agent);
+
     if (agent.locale == 'es') {
         agent.add(safetyMessageES1);
         agent.add(safetyMessageES2);

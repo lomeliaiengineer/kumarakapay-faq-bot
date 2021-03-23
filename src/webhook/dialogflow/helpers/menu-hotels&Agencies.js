@@ -1,5 +1,6 @@
 const { chipMsg } = require('../richResponses/chipMsg');
 const { suggestionsT } = require('../richResponses/telegramSuggestionsMsg');
+const { chatbaseMsg } = require('../../../chatbase/chatbase');
 
 const hotelsAgenciesMessage1 = 'What you wanna know?.';
 const hotelsAgenciesMessage2 = '📌Please select an option.';
@@ -18,6 +19,9 @@ const menuOptionsES = [
 const suggestionsES = ['Hoteles', 'Agencias de viaje']; 
 
 const hotelsAgencies = (agent) => {
+
+    chatbaseMsg(agent);
+
     if (agent.requestSource === 'TELEGRAM') {
         if (agent.locale == 'es') {
             agent.add(hotelsAgenciesMessageES1);

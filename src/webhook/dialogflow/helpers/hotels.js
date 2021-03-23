@@ -2,6 +2,7 @@ const { Card } = require('dialogflow-fulfillment');
 
 const { cardMsg } = require('../richResponses/cardMsg');
 const { somethingElse } = require('../richResponses/somethingElseMsg');
+const { chatbaseMsg } = require('../../../chatbase/chatbase');
 
 const hotelsMessage = '🛎️These are the lists of hotels I recommend:';
 const card = [
@@ -26,6 +27,9 @@ const cardES = [
 ];
 
 const hotels = (agent) => {
+
+    chatbaseMsg(agent);
+
     if (agent.requestSource === 'TELEGRAM') {
         if (agent.locale == 'es') {
 

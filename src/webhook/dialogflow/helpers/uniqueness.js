@@ -1,5 +1,5 @@
 const { somethingElse } = require('../richResponses/somethingElseMsg');
-
+const { chatbaseMsg } = require('../../../chatbase/chatbase');
 
 const uniquenessMessage1 = `Venezuela is one of the most ecologically diverse countries in the world, we have mountains⛰️, deserts🏜️, forests🌳, jungle🌴, wetlands🏞️, tropical deltas🏝️, coastal wilderness🐚, all densely packed with wildlife.`;
 const uniquenessMessage2 = `Also, we were once known as the happiest country in the world🙋‍♀️🇻🇪, which I think hasn’t really changed because no matter how narrow our path gets we always have something to make a joke or laugh about.`;
@@ -9,6 +9,7 @@ const uniquenessMessageES2 = `Además, una vez fuimos conocidos como el país m�
 
 const uniqueness = async (agent) => {
     
+    chatbaseMsg(agent);
 
     if (agent.locale == 'es') {
         agent.add(uniquenessMessageES1);

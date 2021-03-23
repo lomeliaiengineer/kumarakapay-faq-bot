@@ -2,7 +2,7 @@ const { Card } = require('dialogflow-fulfillment');
 
 const { cardMsg } = require('../richResponses/cardMsg');
 const { somethingElse } = require('../richResponses/somethingElseMsg');
-
+const { chatbaseMsg } = require('../../../chatbase/chatbase');
 
 const travelAgenciesMessage = 'This the list of travel agencies I recommend:';
 const travelAgenciesMessageES = 'Esta es la lista de agencias de viajes que recomiendo:';
@@ -19,6 +19,7 @@ const card = [
 
 const travelAgencies = async (agent) => {
     
+    chatbaseMsg(agent);
 
     if (agent.requestSource === 'TELEGRAM') {
         if (agent.locale == 'es') {

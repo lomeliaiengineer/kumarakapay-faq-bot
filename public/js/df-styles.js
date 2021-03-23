@@ -25,7 +25,20 @@ $(document).ready(function () {
             right: 99px;
             bottom: 53px;
             border-radius: 10px;
-          }`;
+          }
+          
+          @media(max-width: 465px){
+            div.chat-wrapper[opened="true"]{
+                height: 100vh;
+                width: 100%;
+            }
+            div.chat-wrapper{
+                right: 0px;
+                bottom: 0;
+                border-radius: 0;
+            }
+          }
+        `;
 
         $r2.shadowRoot.appendChild(style);
 

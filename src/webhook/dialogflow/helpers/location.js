@@ -2,7 +2,7 @@ const { Image } = require('dialogflow-fulfillment');
 
 const { somethingElse } = require('../richResponses/somethingElseMsg');
 const { imgMsg } = require('../richResponses/imgMsg');
-
+const { chatbaseMsg } = require('../../../chatbase/chatbase');
 
 const locationMessage1 = 'Venezuela is located at the northern end of South America📍🗺️.';
 const locationMessage2 = 'It occupies a roughly triangular area that is larger than the combined areas of France and Germany〰️.';
@@ -18,6 +18,9 @@ const images = [
 ]
 
 const location = (agent) => {
+
+    chatbaseMsg(agent);
+    
     if (agent.requestSource === 'TELEGRAM') {
         if (agent.locale == 'es') {
             agent.add(locationMessageES1);
