@@ -10,8 +10,12 @@ const app = express();
 app.use('/dialogflow', require('./src/routes/dialogflowRoute'));
 app.use(express.static(__dirname + '/public'));
 
-app.use('/', (req, res) => {
+app.use('/es', (req, res) => {
 	res.sendFile(path.join(__dirname + '/public/index.html'));
+})
+
+app.use('/en', (req, res) => {
+	res.sendFile(path.join(__dirname + '/public/EN.html'));
 })
 
 app.listen(port, async () => {
